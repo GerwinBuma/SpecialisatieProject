@@ -1,0 +1,10 @@
+C:/Users/gerwi/OneDrive/Documenten/PSoC\ Creator/ADC_SAR_Seq_Example01/ADC_DMA_UART.cydsn/CortexM3/ARM_GCC_541/Debug/CyBootAsmGnu.o : C:/Users/gerwi/OneDrive/Documenten/PSoC\ Creator/ADC_SAR_Seq_Example01/ADC_DMA_UART.cydsn/Generated_Source/PSoC5/CyBootAsmGnu.s C:/Users/gerwi/OneDrive/Documenten/PSoC\ Creator/ADC_SAR_Seq_Example01/ADC_DMA_UART.cydsn/Generated_Source/PSoC5/cydevicegnu.inc C:/Users/gerwi/OneDrive/Documenten/PSoC\ Creator/ADC_SAR_Seq_Example01/ADC_DMA_UART.cydsn/Generated_Source/PSoC5/cydevicegnu_trm.inc C:/Users/gerwi/OneDrive/Documenten/PSoC\ Creator/ADC_SAR_Seq_Example01/ADC_DMA_UART.cydsn/Generated_Source/PSoC5/cyfittergnu.inc 
+
+C:/Users/gerwi/OneDrive/Documenten/PSoC\ Creator/ADC_SAR_Seq_Example01/ADC_DMA_UART.cydsn/Generated_Source/PSoC5/CyBootAsmGnu.s : 
+
+C:/Users/gerwi/OneDrive/Documenten/PSoC\ Creator/ADC_SAR_Seq_Example01/ADC_DMA_UART.cydsn/Generated_Source/PSoC5/cydevicegnu.inc : 
+
+C:/Users/gerwi/OneDrive/Documenten/PSoC\ Creator/ADC_SAR_Seq_Example01/ADC_DMA_UART.cydsn/Generated_Source/PSoC5/cydevicegnu_trm.inc : 
+
+C:/Users/gerwi/OneDrive/Documenten/PSoC\ Creator/ADC_SAR_Seq_Example01/ADC_DMA_UART.cydsn/Generated_Source/PSoC5/cyfittergnu.inc : 
+

@@ -1,0 +1,55 @@
+--------------- Build Started: 01/21/2022 11:27:12 Project: ADC_DMA_UART, Configuration: ARM GCC 5.4-2016-q2-update Debug ---------------
+cydsfit.exe -.appdatapath "C:\Users\gerwi\AppData\Local\Cypress Semiconductor\PSoC Creator\4.2" -.fdsnotice -.fdswarpdepfile=warp_dependencies.txt -.fdselabdepfile=elab_dependencies.txt -.fdsbldfile=generated_files.txt -.fdsreffile=referenced_files.txt -p "C:\Users\gerwi\OneDrive\Documenten\PSoC Creator\ADC_SAR_Seq_Example01\ADC_DMA_UART.cydsn\ADC_DMA_UART.cyprj" -d CY8C5888LTI-LP097 -s "C:\Users\gerwi\OneDrive\Documenten\PSoC Creator\ADC_SAR_Seq_Example01\ADC_DMA_UART.cydsn\Generated_Source\PSoC5" -- -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE
+Elaborating Design...
+ADD: fit.M0032: warning: Clock Warning: (UART_1_IntClock's accuracy range '8 MHz +/- 0.25%, (7.98 MHz - 8.02 MHz)' is not within the specified tolerance range '7.373 MHz +/- 3.937%, (7.083 MHz - 7.663 MHz)'.).
+ * C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\UART_v2_50\UART_v2_50.cysch (Instance:IntClock)
+ * C:\Users\gerwi\OneDrive\Documenten\PSoC Creator\ADC_SAR_Seq_Example01\ADC_DMA_UART.cydsn\ADC_DMA_UART.cydwr (UART_1_IntClock)
+HDL Generation...
+Synthesis...
+Tech Mapping...
+ADD: pft.M0040: information: The following 2 pin(s) will be assigned a location by the fitter: \USBFS_1:Dm(0)\, \USBFS_1:Dp(0)\
+Analog Placement...
+Log: apr.M0058: The analog placement iterative improvement is 51% done. (App=cydsfit)
+Analog Routing...
+Analog Code Generation...
+Digital Placement...
+Digital Routing...
+Bitstream Generation...
+Bitstream Verification...
+Static timing analysis...
+API Generation...
+Dependency Generation...
+Cleanup...
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/main.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -O0 -c main.c -o .\CortexM3\ARM_GCC_541\Debug\main.o
+main.c: In function 'sendData':
+main.c:115:37: warning: passing argument 2 of 'USBFS_1_LoadInEP' from incompatible pointer type [-Wincompatible-pointer-types]
+                 USBFS_1_LoadInEP(1, data+i, l*2);
+                                     ^
+In file included from Generated_Source\PSoC5/project.h:34:0,
+                 from main.c:12:
+Generated_Source\PSoC5/USBFS_1.h:303:8: note: expected 'const uint8 * {aka const unsigned char *}' but argument is of type 'uint16 * {aka short unsigned int *}'
+ void   USBFS_1_LoadInEP(uint8 epNumber, const uint8 pData[], uint16 length)
+        ^
+main.c:118:37: warning: passing argument 2 of 'USBFS_1_LoadInEP' from incompatible pointer type [-Wincompatible-pointer-types]
+                 USBFS_1_LoadInEP(1, data+i, 64);
+                                     ^
+In file included from Generated_Source\PSoC5/project.h:34:0,
+                 from main.c:12:
+Generated_Source\PSoC5/USBFS_1.h:303:8: note: expected 'const uint8 * {aka const unsigned char *}' but argument is of type 'uint16 * {aka short unsigned int *}'
+ void   USBFS_1_LoadInEP(uint8 epNumber, const uint8 pData[], uint16 length)
+        ^
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/cyfitter_cfg.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -O0 -c Generated_Source\PSoC5\cyfitter_cfg.c -o .\CortexM3\ARM_GCC_541\Debug\cyfitter_cfg.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/ADC_SAR_1.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -O0 -c Generated_Source\PSoC5\ADC_SAR_1.c -o .\CortexM3\ARM_GCC_541\Debug\ADC_SAR_1.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/ADC_SAR_1_INT.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -O0 -c Generated_Source\PSoC5\ADC_SAR_1_INT.c -o .\CortexM3\ARM_GCC_541\Debug\ADC_SAR_1_INT.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/ADC_SAR_1_PM.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -O0 -c Generated_Source\PSoC5\ADC_SAR_1_PM.c -o .\CortexM3\ARM_GCC_541\Debug\ADC_SAR_1_PM.o
+arm-none-eabi-ar.exe -rs .\CortexM3\ARM_GCC_541\Debug\ADC_DMA_UART.a .\CortexM3\ARM_GCC_541\Debug\ADC_SAR_1.o .\CortexM3\ARM_GCC_541\Debug\ADC_SAR_1_INT.o .\CortexM3\ARM_GCC_541\Debug\ADC_SAR_1_PM.o .\CortexM3\ARM_GCC_541\Debug\ADC_Pin.o .\CortexM3\ARM_GCC_541\Debug\ADC_SAR_1_IRQ.o .\CortexM3\ARM_GCC_541\Debug\ADC_SAR_1_theACLK.o .\CortexM3\ARM_GCC_541\Debug\CyDmac.o .\CortexM3\ARM_GCC_541\Debug\CyFlash.o .\CortexM3\ARM_GCC_541\Debug\CyLib.o .\CortexM3\ARM_GCC_541\Debug\cyPm.o .\CortexM3\ARM_GCC_541\Debug\CySpc.o .\CortexM3\ARM_GCC_541\Debug\cyutils.o .\CortexM3\ARM_GCC_541\Debug\cy_em_eeprom.o .\CortexM3\ARM_GCC_541\Debug\UART_1.o .\CortexM3\ARM_GCC_541\Debug\UART_1_PM.o .\CortexM3\ARM_GCC_541\Debug\UART_1_INT.o .\CortexM3\ARM_GCC_541\Debug\UART_1_BOOT.o .\CortexM3\ARM_GCC_541\Debug\UART_1_IntClock.o .\CortexM3\ARM_GCC_541\Debug\isr_dma.o .\CortexM3\ARM_GCC_541\Debug\DMA_1_dma.o .\CortexM3\ARM_GCC_541\Debug\Timer_1.o .\CortexM3\ARM_GCC_541\Debug\Timer_1_PM.o .\CortexM3\ARM_GCC_541\Debug\isr_timer.o .\CortexM3\ARM_GCC_541\Debug\USBFS_1.o .\CortexM3\ARM_GCC_541\Debug\USBFS_1_audio.o .\CortexM3\ARM_GCC_541\Debug\USBFS_1_boot.o .\CortexM3\ARM_GCC_541\Debug\USBFS_1_cdc.o .\CortexM3\ARM_GCC_541\Debug\USBFS_1_cls.o .\CortexM3\ARM_GCC_541\Debug\USBFS_1_descr.o .\CortexM3\ARM_GCC_541\Debug\USBFS_1_drv.o .\CortexM3\ARM_GCC_541\Debug\USBFS_1_episr.o .\CortexM3\ARM_GCC_541\Debug\USBFS_1_hid.o .\CortexM3\ARM_GCC_541\Debug\USBFS_1_pm.o .\CortexM3\ARM_GCC_541\Debug\USBFS_1_std.o .\CortexM3\ARM_GCC_541\Debug\USBFS_1_vnd.o .\CortexM3\ARM_GCC_541\Debug\USBFS_1_midi.o .\CortexM3\ARM_GCC_541\Debug\USBFS_1_msc.o .\CortexM3\ARM_GCC_541\Debug\USBFS_1_Dm.o .\CortexM3\ARM_GCC_541\Debug\USBFS_1_Dp.o .\CortexM3\ARM_GCC_541\Debug\PWM_1.o .\CortexM3\ARM_GCC_541\Debug\PWM_1_PM.o .\CortexM3\ARM_GCC_541\Debug\isr_rx.o .\CortexM3\ARM_GCC_541\Debug\isr_adc.o .\CortexM3\ARM_GCC_541\Debug\Clock_1.o .\CortexM3\ARM_GCC_541\Debug\CyBootAsmGnu.o
+arm-none-eabi-ar.exe: creating .\CortexM3\ARM_GCC_541\Debug\ADC_DMA_UART.a
+arm-none-eabi-gcc.exe -Wl,--start-group -o "C:\Users\gerwi\OneDrive\Documenten\PSoC Creator\ADC_SAR_Seq_Example01\ADC_DMA_UART.cydsn\CortexM3\ARM_GCC_541\Debug\ADC_DMA_UART.elf" .\CortexM3\ARM_GCC_541\Debug\main.o .\CortexM3\ARM_GCC_541\Debug\cyfitter_cfg.o .\CortexM3\ARM_GCC_541\Debug\cymetadata.o .\CortexM3\ARM_GCC_541\Debug\Cm3Start.o .\CortexM3\ARM_GCC_541\Debug\ADC_DMA_UART.a "C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CortexM3\ARM_GCC_541\Debug\CyComponentLibrary.a" -mcpu=cortex-m3 -mthumb -L Generated_Source\PSoC5 -Wl,-Map,.\CortexM3\ARM_GCC_541\Debug/ADC_DMA_UART.map -T Generated_Source\PSoC5\cm3gcc.ld -specs=nano.specs -Wl,--gc-sections -g -ffunction-sections -O0 -ffat-lto-objects -Wl,--end-group
+cyelftool.exe -C "C:\Users\gerwi\OneDrive\Documenten\PSoC Creator\ADC_SAR_Seq_Example01\ADC_DMA_UART.cydsn\CortexM3\ARM_GCC_541\Debug\ADC_DMA_UART.elf" --flash_row_size 256 --flash_size 262144 --flash_offset 0x00000000
+No ELF section .cychecksum found, creating one
+Application checksum calculated and stored in ELF section .cychecksum
+Checksum calculated and stored in ELF section .cymeta
+cyelftool.exe -S "C:\Users\gerwi\OneDrive\Documenten\PSoC Creator\ADC_SAR_Seq_Example01\ADC_DMA_UART.cydsn\CortexM3\ARM_GCC_541\Debug\ADC_DMA_UART.elf"
+Flash used: 13038 of 262144 bytes (5,0%).
+SRAM used: 13893 of 65536 bytes (21,2%). Stack: 2048 bytes. Heap: 128 bytes.
+--------------- Build Succeeded: 01/21/2022 11:27:31 ---------------

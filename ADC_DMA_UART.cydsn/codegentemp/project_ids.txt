@@ -1,0 +1,14 @@
+C:\Users\gerwi\OneDrive\Documenten\PSoC Creator\ADC_SAR_Seq_Example01\ADC_SAR_PrISM01.cydsn\ADC_SAR_PrISM01.cyprj|4bfcbdf0-2463-4610-8ba3-942839bfac9f
+C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\default\CyAnnotationLibrary\CyAnnotationLibrary.cylib\CyAnnotationLibrary.cyprj|e421bf57-006a-4c8d-9909-fc477156cc82
+C:\Users\gerwi\OneDrive\Documenten\PSoC Creator\4.2\Downloads ( 4.2).cylib\Downloads ( 4.2).cyprj|cc3a22ce-96f5-48b3-b8d6-6dc4b03f36dc
+C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\cycomponentlibraryupdates\CyComponentLibraryUpdates.cylib\CyComponentLibraryUpdates.cyprj|4946c662-775e-4788-a570-5dd2451755d8
+C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CyComponentLibrary.cyprj|94acddae-cf48-4357-88c8-80973b2386ad
+C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\CyPrimitives.cyprj|f1fda723-b181-48a0-8c2b-d6d61f3d04be
+C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\default\CyReferenceLibrary\CyReferenceLibrary.cylib\CyReferenceLibrary.cyprj|cce05f02-a103-4780-9412-b9fac49a83ba
+C:\Users\gerwi\OneDrive\Documenten\PSoC Creator\ADC_SAR_Seq_Example01\USBFS_Bulk_Wraparound01.cydsn\USBFS_Bulk_Wraparound01.cyprj|863ec836-a667-417d-9db5-7957e7b45cef
+C:\Users\gerwi\OneDrive\Documenten\PSoC Creator\ADC_SAR_Seq_Example01\ADC_Interrupt_UART.cydsn\ADC_Interrupt_UART.cyprj|244fc0ee-fbf1-4358-b361-d1ecd9db437b
+C:\Users\gerwi\OneDrive\Documenten\PSoC Creator\ADC_SAR_Seq_Example01\ADC_SAR_Seq_Example01.cydsn\ADC_SAR_Seq_Example01.cyprj|b3b20dbf-ac7c-4711-a28e-9a47677816c5
+C:\Users\gerwi\OneDrive\Documenten\PSoC Creator\ADC_SAR_Seq_Example01\uart_dma_test.cydsn\uart_dma_test.cyprj|bd13e560-b9f7-47d1-b77f-8bc9282f10f7
+C:\Users\gerwi\OneDrive\Documenten\PSoC Creator\ADC_SAR_Seq_Example01\dma_uart_test.cydsn\dma_uart_test.cyprj|ebc235c9-994b-4111-80b3-2c3a5243264f
+C:\Users\gerwi\OneDrive\Documenten\PSoC Creator\ADC_SAR_Seq_Example01\USB_test.cydsn\USB_test.cyprj|289f922a-76f1-43dd-a96f-add920ab2b99
+C:\Users\gerwi\OneDrive\Documenten\PSoC Creator\ADC_SAR_Seq_Example01\ADC_DMA_UART.cydsn\ADC_DMA_UART.cyprj|a07bf443-927c-4f53-ab1a-4aeacd699c0f
